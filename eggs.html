@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="#eggyweggies - Exploring the intersection of destruction, creation, and value through digital art">
+    <meta name="keywords" content="eggyweggies, shl0ms, crypto art, destruction, NFT, digital art, blockchain">
+    <title>#eggyweggies | shl0ms archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .egg-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .lambo {
+            background: linear-gradient(45deg, #000, #222);
+            clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+        }
+        .explosion {
+            background: radial-gradient(circle, #ff4d4d, #ff8533, transparent);
+            animation: explode 2s ease-out infinite;
+        }
+        @keyframes explode {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+        .egg-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 1rem;
+        }
+        .egg-item {
+            aspect-ratio: 1;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ff3366, #ff99cc);
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col">
+    <header class="fixed w-full top-0 bg-black/90 border-b border-gray-800 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734107942908/archive.html" class="text-2xl font-bold tracking-tighter">shl0ms_archive</a>
+                <div class="space-x-6">
+                    <a href="/generated-website-1734107942908/manifesto.html" class="hover:text-gray-400">manifesto</a>
+                    <a href="/generated-website-1734107942908/gallery.html" class="hover:text-gray-400">gallery</a>
+                    <a href="/generated-website-1734107942908/lore.html" class="hover:text-gray-400">lore</a>
+                    <a href="/generated-website-1734107942908/eggyweggies.html" class="text-pink-400 hover:text-pink-300">#eggyweggies</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 pt-24 pb-16 flex-grow">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <section class="space-y-6">
+                <h1 class="text-4xl font-bold mb-8">#eggyweggies: Genesis</h1>
+                <div class="lambo h-64 relative mb-8">
+                    <div class="explosion absolute inset-0"></div>
+                </div>
+                <p class="text-gray-300 leading-relaxed">
+                    In the wake of the legendary Lamborghini destruction, #eggyweggies emerged as a meditation on the cycle of creation and destruction. Each egg represents a fragment of the original, transformed into something new and precious.
+                </p>
+                <div class="egg-grid my-8">
+                    <div class="egg-item"></div>
+                    <div class="egg-item"></div>
+                    <div class="egg-item"></div>
+                    <div class="egg-item"></div>
+                </div>
+            </section>
+            
+            <section class="space-y-6">
+                <h2 class="text-3xl font-bold">Collection Details</h2>
+                <div class="border border-gray-800 p-6 rounded-lg">
+                    <p class="text-gray-300 mb-4">Total Supply: 88 unique #eggyweggies</p>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>• Each egg contains a fragment of the destroyed value</li>
+                        <li>• Minted on the anniversary of the banget™ event</li>
+                        <li>• Non-transferable, permanent blockchain artifacts</li>
+                    </ul>
+                    <div class="mt-6 flex justify-between items-center">
+                        <span class="text-xl font-mono">Floor: ∞ ETH</span>
+                        <span class="text-xl font-mono">Volume: ∅</span>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <h3 class="text-2xl font-bold mb-4">Related Archives</h3>
+                    <div class="space-y-2">
+                        <a href="/generated-website-1734107942908/banget.html" class="block text-pink-400 hover:text-pink-300">banget™ Documentation →</a>
+                        <a href="/generated-website-1734107942908/manifesto/destruction.html" class="block text-pink-400 hover:text-pink-300">Destruction Theory →</a>
+                        <a href="/generated-website-1734107942908/gallery/eggs.html" class="block text-pink-400 hover:text-pink-300">View Collection →</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-black/90 border-t border-gray-800">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex justify-between items-center">
+                <p class="text-gray-500">&copy; 2024 shl0ms archive</p>
+                <div class="flex space-x-4">
+                    <a href="/generated-website-1734107942908/terms.html" class="text-gray-500 hover:text-white">Terms</a>
+                    <a href="/generated-website-1734107942908/privacy.html" class="text-gray-500 hover:text-white">Privacy</a>
+                    <a href="/generated-website-1734107942908/contact.html" class="text-gray-500 hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

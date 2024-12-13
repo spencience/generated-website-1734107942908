@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="shl0ms archive - A curated collection of destructive art and value experiments">
+    <meta name="keywords" content="shl0ms, crypto art, destruction, NFT, blockchain art">
+    <title>Gallery | shl0ms archive</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .egg-animation {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .lambo {
+            background: linear-gradient(45deg, #000, #222);
+            clip-path: polygon(0 20%, 100% 0%, 100% 80%, 0% 100%);
+        }
+        .explosion {
+            background: radial-gradient(circle, #ff4d4d, #ff8533, transparent);
+            animation: explode 2s ease-out infinite;
+        }
+        @keyframes explode {
+            0% { transform: scale(1); opacity: 0.8; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+        .grid-item {
+            transition: transform 0.3s ease;
+        }
+        .grid-item:hover {
+            transform: scale(1.02);
+        }
+    </style>
+</head>
+<body class="bg-black text-white min-h-screen flex flex-col">
+    <header class="fixed w-full top-0 bg-black/90 border-b border-gray-800 z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <a href="/generated-website-1734107942908/archive.html" class="text-2xl font-bold tracking-tighter">shl0ms_archive</a>
+                <div class="space-x-6">
+                    <a href="/generated-website-1734107942908/manifesto.html" class="hover:text-gray-400">manifesto</a>
+                    <a href="/generated-website-1734107942908/gallery.html" class="hover:text-gray-400">gallery</a>
+                    <a href="/generated-website-1734107942908/lore.html" class="hover:text-gray-400">lore</a>
+                    <a href="https://twitter.com/god" class="hover:text-blue-400">@god</a>
+                    <a href="https://twitter.com/s8n" class="hover:text-red-400">@s8n</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 pt-24 pb-16 flex-grow">
+        <h1 class="text-4xl font-bold mb-12">Archive Gallery</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <article class="grid-item border border-gray-800 rounded-lg overflow-hidden">
+                <a href="/generated-website-1734107942908/gallery/lamborghini-destruction.html">
+                    <div class="lambo h-48 relative">
+                        <div class="explosion absolute inset-0"></div>
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-2">Lamborghini Destruction</h2>
+                        <p class="text-gray-400">The iconic moment of material value transcendence</p>
+                        <span class="text-sm text-gray-500 mt-4 block">Edition 1/1</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="grid-item border border-gray-800 rounded-lg overflow-hidden">
+                <a href="/generated-website-1734107942908/gallery/nothing-token.html">
+                    <div class="h-48 bg-gradient-to-r from-gray-900 to-black flex items-center justify-center">
+                        <span class="text-6xl font-mono">[ ]</span>
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-2">Nothing Token</h2>
+                        <p class="text-gray-400">The void made manifest on chain</p>
+                        <span class="text-sm text-gray-500 mt-4 block">Edition 0/0</span>
+                    </div>
+                </a>
+            </article>
+
+            <article class="grid-item border border-gray-800 rounded-lg overflow-hidden">
+                <a href="/generated-website-1734107942908/gallery/eggy-weggies.html">
+                    <div class="h-48 bg-gradient-to-r from-purple-900 to-pink-900 flex items-center justify-center">
+                        <div class="egg-animation w-20 h-20 rounded-full bg-gradient-to-r from-purple-500 to-pink-500"></div>
+                    </div>
+                    <div class="p-6">
+                        <h2 class="text-2xl font-bold mb-2">Eggy Weggies</h2>
+                        <p class="text-gray-400">Digital embryos of creative destruction</p>
+                        <span class="text-sm text-gray-500 mt-4 block">Edition ∞/∞</span>
+                    </div>
+                </a>
+            </article>
+        </div>
+
+        <section class="mt-16">
+            <h2 class="text-3xl font-bold mb-6">Latest Destructions</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="border border-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">banget™ Protocol</h3>
+                    <p class="text-gray-400">Systematic value elimination through smart contracts</p>
+                    <a href="/generated-website-1734107942908/gallery/banget.html" class="text-purple-400 mt-4 inline-block hover:text-purple-300">View details →</a>
+                </div>
+                <div class="border border-gray-800 p-6 rounded-lg">
+                    <h3 class="text-xl font-bold mb-4">Void Collection</h3>
+                    <p class="text-gray-400">A series of non-existent tokens</p>
+                    <a href="/generated-website-1734107942908/gallery/void.html" class="text-purple-400 mt-4 inline-block hover:text-purple-300">Enter void →</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black/90 border-t border-gray-800">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex justify-between items-center">
+                <p class="text-gray-500">&copy; 2024 shl0ms archive</p>
+                <div class="flex space-x-4">
+                    <a href="/generated-website-1734107942908/terms.html" class="text-gray-500 hover:text-white">Terms</a>
+                    <a href="/generated-website-1734107942908/privacy.html" class="text-gray-500 hover:text-white">Privacy</a>
+                    <a href="/generated-website-1734107942908/contact.html" class="text-gray-500 hover:text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
